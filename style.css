@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.img object{/* 設定圖片滿版 */
+    object-fit: cover;
+    height:  calc(100vh - 60px);
+    /* calc公式減號前後必須有空格 */
+    width: 100%;
+}
+.navbar{
+    height: 60px;
+}
+.navbar-brand img{
+    width: 150px;
+
+}
+.btn{
+    width: 100px;
+    height: 35px;
+}
+main{
+    padding: 30px 0;
+}
+.col-12{
+    border: 1px solid #666;
+}
