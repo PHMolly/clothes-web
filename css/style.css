@@ -1,0 +1,19 @@
+@charset "utf-8";
+.img-object{
+    object-fit: cover;
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+.navbar{
+    height: 60px;
+}
+.navbar-brand img{
+    width: 150px;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+}
+main{
+    padding: 30px 0;
+}
